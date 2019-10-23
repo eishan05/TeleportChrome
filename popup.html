@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      button {
-        height: 30px;
-        width: 30px;
-        outline: none;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="popupstyle.css">
   </head>
   <body>
-    Hello!!!!
+    <div class="chat-popup">
+      <form class="form-container">
+        <h1>Teleport</h1>
+    
+        <label><b>Send to mobile device</b></label>
+        <textarea placeholder="Type message.." id="msg" required></textarea>
+    
+        <button id="sendBtn" class="btn">Send</button>
+      </form>
+    </div>
     <script src="popup.js"></script>
   </body>
 </html>
