@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "Teleport",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "Teleport stuff to your mobile device!",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
